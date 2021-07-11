@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Lobster, sans-serif;
+}
+section {
+  padding: 15%;
+  background-image: url(./images/header-bg.png);
+  background-repeat: no-repeat;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(236, 76, 122);
+}
+p {
+  color: dimgray;
+  font-size: 20px;
+}
+.half-width {
+  width: 30%;
+  float: left;
+}
+#profile-details {
+  margin-top: 50px;
+}
+.button-link {
+  text-decoration: none;
+  border: 1px solid;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(236, 81, 150),
+    rgb(236, 75, 116)
+  );
+}
+#profile-pic {
+  align-items: center;
+  width: 50%;
+  margin-left: 190px;
+  margin-bottom: 250px;
+}
